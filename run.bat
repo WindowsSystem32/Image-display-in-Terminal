@@ -1,0 +1,1 @@
+@echo off && cls && echo TS 컴파일 - config && npx tsc config.ts --strict true -d --removeComments && echo TS 컴파일 완료 - config && echo TS 컴파일 - main && npx tsc main.ts --strict true -d --removeComments && echo TS 컴파일 완료 - main && echo 실행 && node main.js && @echo on
